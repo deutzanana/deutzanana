@@ -1,0 +1,6 @@
+x = float(input("Valoare factura?"))
+y = float(input("Tips? 10, 12 sau 15?"))
+z = int(input("cate persoane?"))
+w = (x + x * y / 100) / z
+y = "{:.3f}".format(w)
+print(f"Each person should pay {y}")
